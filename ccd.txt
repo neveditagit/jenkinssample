@@ -1,0 +1,389 @@
+
+pwesw2@ESWDev4 MINGW64 ~
+$ git clone https://github.com/neveditagit/jenkinssample.git
+Cloning into 'jenkinssample'...
+remote: Enumerating objects: 15, done.
+remote: Counting objects: 100% (15/15), done.
+remote: Compressing objects: 100% (12/12), done.
+remote: Total 15 (delta 3), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (15/15), done.
+Resolving deltas: 100% (3/3), done.
+
+pwesw2@ESWDev4 MINGW64 ~
+$ git branch
+fatal: not a git repository (or any of the parent directories): .git
+
+pwesw2@ESWDev4 MINGW64 ~
+$ git branch
+fatal: not a git repository (or any of the parent directories): .git
+
+pwesw2@ESWDev4 MINGW64 ~
+$ pwd
+/c/Users/pwesw2
+
+pwesw2@ESWDev4 MINGW64 ~
+$ cd
+
+pwesw2@ESWDev4 MINGW64 ~
+$ pwd
+/c/Users/pwesw2
+
+pwesw2@ESWDev4 MINGW64 ~
+$ gh repo clone neveditagit/jenkinssample
+bash: gh: command not found
+
+pwesw2@ESWDev4 MINGW64 ~
+$ git clone neveditagit/jenkinssample
+fatal: repository 'neveditagit/jenkinssample' does not exist
+
+pwesw2@ESWDev4 MINGW64 ~
+$ git clone neveditagit/jenkinssample.git
+fatal: repository 'neveditagit/jenkinssample.git' does not exist
+
+pwesw2@ESWDev4 MINGW64 ~
+$ git clone https://github.com/neveditagit/jenkinssample.git
+fatal: destination path 'jenkinssample' already exists and is not an empty directory.
+
+pwesw2@ESWDev4 MINGW64 ~
+$ git branch
+fatal: not a git repository (or any of the parent directories): .git
+
+pwesw2@ESWDev4 MINGW64 ~
+$ git
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone             Clone a repository into a new directory
+   init              Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add               Add file contents to the index
+   mv                Move or rename a file, a directory, or a symlink
+   restore           Restore working tree files
+   rm                Remove files from the working tree and from the index
+   sparse-checkout   Initialize and modify the sparse-checkout
+
+examine the history and state (see also: git help revisions)
+   bisect            Use binary search to find the commit that introduced a bug
+   diff              Show changes between commits, commit and working tree, etc
+   grep              Print lines matching a pattern
+   log               Show commit logs
+   show              Show various types of objects
+   status            Show the working tree status
+
+grow, mark and tweak your common history
+   branch            List, create, or delete branches
+   commit            Record changes to the repository
+   merge             Join two or more development histories together
+   rebase            Reapply commits on top of another base tip
+   reset             Reset current HEAD to the specified state
+   switch            Switch branches
+   tag               Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch             Download objects and refs from another repository
+   pull              Fetch from and integrate with another repository or a local branch
+   push              Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+
+pwesw2@ESWDev4 MINGW64 ~
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{69156e05-6611-11e9-b84e-f615673c9852}.TM.blf
+ NTUSER.DAT{69156e05-6611-11e9-b84e-f615673c9852}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{69156e05-6611-11e9-b84e-f615673c9852}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ Postman/
+ PrintHood@
+ Programs/
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+ WINDOWS/
+ eclipse/
+ eclipse-workspace/
+ jenkinssample/
+ nkworkspace/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ source/
+
+pwesw2@ESWDev4 MINGW64 ~
+$ pwd
+/c/Users/pwesw2
+
+pwesw2@ESWDev4 MINGW64 ~
+$ rm -rf jenkinssample/
+
+pwesw2@ESWDev4 MINGW64 ~
+$ pwd
+/c/Users/pwesw2
+
+pwesw2@ESWDev4 MINGW64 ~
+$ mkdir test
+
+pwesw2@ESWDev4 MINGW64 ~
+$ cd test/
+
+pwesw2@ESWDev4 MINGW64 ~/test
+$ git clone https://github.com/neveditagit/jenkinssample.git
+Cloning into 'jenkinssample'...
+remote: Enumerating objects: 15, done.
+remote: Counting objects: 100% (15/15), done.
+remote: Compressing objects: 100% (12/12), done.
+remote: Total 15 (delta 3), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (15/15), done.
+Resolving deltas: 100% (3/3), done.
+
+pwesw2@ESWDev4 MINGW64 ~/test
+$ git branch
+fatal: not a git repository (or any of the parent directories): .git
+
+pwesw2@ESWDev4 MINGW64 ~/test
+$ git dir
+git: 'dir' is not a git command. See 'git --help'.
+
+The most similar command is
+        diff
+
+pwesw2@ESWDev4 MINGW64 ~/test
+$ ls
+jenkinssample/
+cd je
+pwesw2@ESWDev4 MINGW64 ~/test
+$ cd jenkinssample/
+git branch
+
+pwesw2@ESWDev4 MINGW64 ~/test/jenkinssample (main)
+$ git branch
+* main
+
+pwesw2@ESWDev4 MINGW64 ~/test/jenkinssample (main)
+$ cd -
+/c/Users/pwesw2/test
+
+pwesw2@ESWDev4 MINGW64 ~/test
+$ cd ..
+
+pwesw2@ESWDev4 MINGW64 ~
+$ pwd
+/c/Users/pwesw2
+
+pwesw2@ESWDev4 MINGW64 ~
+$ git clone https://github.com/neveditagit/jenkinssample.git
+Cloning into 'jenkinssample'...
+remote: Enumerating objects: 15, done.
+remote: Counting objects: 100% (15/15), done.
+remote: Compressing objects: 100% (12/12), done.
+remote: Total 15 (delta 3), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (15/15), done.
+Resolving deltas: 100% (3/3), done.
+
+pwesw2@ESWDev4 MINGW64 ~
+$ git branch
+fatal: not a git repository (or any of the parent directories): .git
+
+pwesw2@ESWDev4 MINGW64 ~
+$ diur
+bash: diur: command not found
+
+pwesw2@ESWDev4 MINGW64 ~
+$ dir
+3D\ Objects
+AppData
+Application\ Data
+Contacts
+Cookies
+Desktop
+Documents
+Downloads
+Favorites
+Links
+Local\ Settings
+MicrosoftEdgeBackups
+Music
+My\ Documents
+NTUSER.DAT
+NTUSER.DAT{69156e05-6611-11e9-b84e-f615673c9852}.TM.blf
+NTUSER.DAT{69156e05-6611-11e9-b84e-f615673c9852}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{69156e05-6611-11e9-b84e-f615673c9852}.TMContainer00000000000000000002.regtrans-ms
+NetHood
+OneDrive
+Pictures
+Postman
+PrintHood
+Programs
+Recent
+Saved\ Games
+Searches
+SendTo
+Start\ Menu
+Templates
+Videos
+WINDOWS
+eclipse
+eclipse-workspace
+jenkinssample
+nkworkspace
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+ntuser.ini
+source
+test
+
+pwesw2@ESWDev4 MINGW64 ~
+$ cd jenkinssample/
+g
+pwesw2@ESWDev4 MINGW64 ~/jenkinssample (main)
+$ git branch
+* main
+
+pwesw2@ESWDev4 MINGW64 ~/jenkinssample (main)
+$ rm -rf ../te
+Templates/ test/
+
+pwesw2@ESWDev4 MINGW64 ~/jenkinssample (main)
+$ rm -rf ../test/
+
+pwesw2@ESWDev4 MINGW64 ~/jenkinssample (main)
+$ cd ..
+
+pwesw2@ESWDev4 MINGW64 ~
+$ rm -rf jenkinssample/
+
+pwesw2@ESWDev4 MINGW64 ~
+$ dir
+3D\ Objects
+AppData
+Application\ Data
+Contacts
+Cookies
+Desktop
+Documents
+Downloads
+Favorites
+Links
+Local\ Settings
+MicrosoftEdgeBackups
+Music
+My\ Documents
+NTUSER.DAT
+NTUSER.DAT{69156e05-6611-11e9-b84e-f615673c9852}.TM.blf
+NTUSER.DAT{69156e05-6611-11e9-b84e-f615673c9852}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{69156e05-6611-11e9-b84e-f615673c9852}.TMContainer00000000000000000002.regtrans-ms
+NetHood
+OneDrive
+Pictures
+Postman
+PrintHood
+Programs
+Recent
+Saved\ Games
+Searches
+SendTo
+Start\ Menu
+Templates
+Videos
+WINDOWS
+eclipse
+eclipse-workspace
+nkworkspace
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+ntuser.ini
+source
+
+pwesw2@ESWDev4 MINGW64 ~
+$ git clone https://github.com/neveditagit/jenkinssample.git
+Cloning into 'jenkinssample'...
+remote: Enumerating objects: 15, done.
+remote: Counting objects: 100% (15/15), done.
+remote: Compressing objects: 100% (12/12), done.
+remote: Total 15 (delta 3), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (15/15), done.
+Resolving deltas: 100% (3/3), done.
+
+pwesw2@ESWDev4 MINGW64 ~
+$ dir
+3D\ Objects
+AppData
+Application\ Data
+Contacts
+Cookies
+Desktop
+Documents
+Downloads
+Favorites
+Links
+Local\ Settings
+MicrosoftEdgeBackups
+Music
+My\ Documents
+NTUSER.DAT
+NTUSER.DAT{69156e05-6611-11e9-b84e-f615673c9852}.TM.blf
+NTUSER.DAT{69156e05-6611-11e9-b84e-f615673c9852}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{69156e05-6611-11e9-b84e-f615673c9852}.TMContainer00000000000000000002.regtrans-ms
+NetHood
+OneDrive
+Pictures
+Postman
+PrintHood
+Programs
+Recent
+Saved\ Games
+Searches
+SendTo
+Start\ Menu
+Templates
+Videos
+WINDOWS
+eclipse
+eclipse-workspace
+jenkinssample
+nkworkspace
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+ntuser.ini
+source
+
+pwesw2@ESWDev4 MINGW64 ~
+$ cd jenkinssample/
+
+pwesw2@ESWDev4 MINGW64 ~/jenkinssample (main)
+$ git branch
+* main
+
+pwesw2@ESWDev4 MINGW64 ~/jenkinssample (main)
+$
